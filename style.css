@@ -25,14 +25,10 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-@keyframes rotate 
-{
-    100% {
-        transform: rotate(180deg) scale(1.3);
-    }
+@keyframes rotate{
+    100% { transform: rotate(180deg) scale(1.3); }
 }
-@keyframes opacity 
-{
+@keyframes opacity{
     0% {
         opacity: 0;
     }
@@ -59,7 +55,7 @@
     color: red;
     transition: 2s;
 }
-.title p:hover b{
+.title p:hover b{ 
     color: white;
     transition: 2s;
 }
