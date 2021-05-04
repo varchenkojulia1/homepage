@@ -1,6 +1,30 @@
 .experience li:hover {
     background-color: rgba(167, 175, 201, 0.3);
+    border-radius: 10px;
+    border: blue;
 }
 .experience li{
     margin-top: 10px;
+    padding: 10px;
+}
+.avatar-wrapper::after {
+    content: ' ';
+    display: block;
+    width: 200px;
+    height: 120px;
+    position: absolute;
+    bottom: 60px;
+    background: url('https://cdn.britannica.com/79/4479-050-6EF87027/flag-Stars-and-Stripes-May-1-1795.jpg') no-repeat center;
+    background-size: cover;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-delay: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(180deg) scale(1.3);
+    }
 }
