@@ -1,0 +1,6 @@
+.experience li:hover {
+    background-color: rgba(167, 175, 201, 0.3);
+}
+.experience li{
+    margin-top: 10px;
+}
